@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#020617] text-white flex flex-col items-center justify-center p-6 selection:bg-cyan-500/30 overflow-x-hidden">
@@ -38,13 +37,13 @@ export default function Home() {
         </div>
 
         <div className="group relative w-64">
-          <div className="absolute -inset-0.5 bg-gradient-to-b from-purple-500 to-pink-600 rounded-[2rem] blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-b from-blue-400 to-green-500 rounded-[2rem] blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
           <div className="relative bg-[#0f172a] border border-slate-800/50 p-6 rounded-[2rem] flex flex-col items-center">
             <div className="w-20 h-20 rounded-2xl -rotate-3 overflow-hidden border-2 border-purple-500/30 mb-4">
-              <img src="/bulcsu.jpg" alt="Bulcsú" className="w-full h-full object-cover" />
+              <img src="/ProfilePicture_KB.jpg" alt="Bulcsú" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-lg font-bold text-white mb-1">Kovács Bulcsú</h3>
-            <p className="text-purple-400 text-[9px] font-mono uppercase tracking-widest font-bold">Matematikai Logika</p>
+            <p className="text-purple-400 text-[9px] font-mono uppercase tracking-widest font-bold">Matematika, Logika és az ötlet</p>
           </div>
         </div>
       </div>
@@ -82,9 +81,9 @@ export default function Home() {
             <div className="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-500">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" /></svg>
             </div>
-            <h2 className="text-xl font-bold italic">SZÖG-TÍPUS</h2>
+            <h2 className="text-xl font-bold italic">HÁROMSZÖG-TÍPUS</h2>
           </div>
-          <p className="text-slate-400 text-xs">Hegyestojás, tompa vagy derékszög?</p>
+          <p className="text-slate-400 text-xs">Hegyes, tompa vagy derékszögű a háromszög?</p>
           <div className="mt-4 text-emerald-500 text-[10px] font-black tracking-widest uppercase">Indítás →</div>
         </Link>
 
